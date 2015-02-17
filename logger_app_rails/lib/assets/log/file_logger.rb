@@ -3,7 +3,7 @@ require File.expand_path('../my_logger.rb', __FILE__)
 class FileLogger < MyLogger 
 
 	def write_to_file
-		open("#{ Rails.root }/log/loggger.txt", 'a') do |f1|
+		open("#{ Rails.root }/log/logger.txt", 'a') do |f1|
 			f1.puts (self.log + "\n").uncolorize
 		end
 	end

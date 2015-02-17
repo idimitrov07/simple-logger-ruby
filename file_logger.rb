@@ -3,7 +3,7 @@ require File.expand_path('../my_logger.rb', __FILE__)
 class FileLogger < MyLogger 
 
 	def log_to_file
-		open('loggger.txt', 'a') do |f1|
+		open('logger.txt', 'a') do |f1|
 			f1.puts self.log + "\n"
 		end
 	end
