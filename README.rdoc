@@ -25,6 +25,6 @@ go to http://localhost:300
 
 Play around with different controller actions and check the console for custom messages. 
 
-Check the logger.txt file in lib/assets/log/loggger.txt
+Check the logger.txt file in log/loggger.txt
 
 HttpLogger hooked up to create method in the books controller.

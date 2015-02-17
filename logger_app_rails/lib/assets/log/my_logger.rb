@@ -20,7 +20,8 @@ class MyLogger
 	end
 
 	def log
-		"#{get_level}::#{Time.now.iso8601}::#{@message}"
+		time = Time.now.iso8601.colorize(:light_yellow)
+		"#{get_level}::#{time}::#{@message}"
 	end
 
 end
