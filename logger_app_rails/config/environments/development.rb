@@ -1,7 +1,3 @@
-require File.expand_path('../../lib/my_logger.rb', __FILE__)
-require File.expand_path('../../lib/console_logger.rb', __FILE__)
-#require "console_logger"
-
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 

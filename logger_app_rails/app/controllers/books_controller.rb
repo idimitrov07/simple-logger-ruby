@@ -6,23 +6,27 @@ class BooksController < ApplicationController
   def index
     @books = Book.all.desc
     logger.info BooksHelper.console_log_message("info")
+    logger.info BooksHelper.log_to_file("info")
   end
 
   # GET /books/1
   # GET /books/1.json
   def show
     logger.info BooksHelper.console_log_message("info")
+    logger.info BooksHelper.log_to_file("info")
   end
 
   # GET /books/new
   def new
     @book = Book.new
     logger.warn BooksHelper.console_log_message("warn")
+    logger.info BooksHelper.log_to_file("warn")
   end
 
   # GET /books/1/edit
   def edit
     logger.warn BooksHelper.console_log_message("warn")
+    logger.info BooksHelper.log_to_file("warn")
   end
 
   # POST /books
@@ -32,10 +36,15 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       if @book.save
+        #logger.info request.env
+        if request.post?
+          logger.info BooksHelper.http_log_console
+        end
         format.html { redirect_to @book, notice: 'Book was successfully created.' }
         format.json { render :show, status: :created, location: @book }
       else
         logger.error BooksHelper.console_log_message("error")
+        logger.info BooksHelper.log_to_file("error")
         format.html { render :new }
         format.json { render json: @book.errors, status: :unprocessable_entity }
       end
@@ -51,6 +60,7 @@ class BooksController < ApplicationController
         format.json { render :show, status: :ok, location: @book }
       else
         logger.error BooksHelper.console_log_message("error")
+        logger.info BooksHelper.log_to_file("error")
         format.html { render :edit }
         format.json { render json: @book.errors, status: :unprocessable_entity }
       end
