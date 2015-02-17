@@ -80,3 +80,4 @@ PLSCHECKFFS::2015-02-17T22:58:15+02:00::Error, error, check for missing title or
 INFO::2015-02-17T22:58:26+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
 WARNING::2015-02-17T22:58:31+02:00::About to create or edit a Book. Watch for missing title..
 INFO::2015-02-17T22:58:35+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T23:08:54+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
