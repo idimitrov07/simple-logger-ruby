@@ -1,23 +1,30 @@
 == Logger Program in Ruby
 
 run the files with:
+
 cd to directory
 
 ruby console_logger.rb
+
 ruby file_logger.rb
 
 check loggger.txt for output messages
 
 == To check logger messages hooked up to Rails app: 
 cd logger_app_rails
+
 bundle install
+
 bin/rake db:migrate
+
 bin/rake seed_books
+
 bin/rails server
 
 go to http://localhost:300
 
 Play around with different controller actions and check the console for custom messeges. 
+
 Check the logger.txt file in lib/assets/log/loggger.txt
 
 HttpLogger hooked up to create method in the books controller.
