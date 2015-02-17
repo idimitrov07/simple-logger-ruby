@@ -5,7 +5,7 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.all.desc
-    logger.info BooksHelper.console_log_message("info")
+    logger.info BooksHelper.console_log_message("info") 
     logger.info BooksHelper.log_to_file("info")
   end
 

@@ -33,3 +33,36 @@ INFO::2015-02-17T21:10:02+02:00::Hello, welcome to Ruby on Rails - Listing Book(
 WARNING::2015-02-17T21:10:05+02:00::About to create or edit a Book. Watch for missing title..
 INFO::2015-02-17T21:10:10+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
 INFO::2015-02-17T21:12:18+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T21:37:24+02:00::About to create or edit a Book. Watch for missing title..
+INFO::2015-02-17T21:43:41+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T21:43:43+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T21:44:40+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T21:46:33+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T21:46:50+02:00::About to create or edit a Book. Watch for missing title..
+PLSCHECKFFS::2015-02-17T21:47:01+02:00::Error, error, check for missing title or description..
+INFO::2015-02-17T21:53:23+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T21:53:38+02:00::About to create or edit a Book. Watch for missing title..
+WARNING::2015-02-17T21:55:21+02:00::About to create or edit a Book. Watch for missing title..
+PLSCHECKFFS::2015-02-17T21:55:32+02:00::Error, error, check for missing title or description..
+INFO::2015-02-17T21:56:58+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T21:57:16+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T21:57:21+02:00::About to create or edit a Book. Watch for missing title..
+PLSCHECKFFS::2015-02-17T21:57:30+02:00::Error, error, check for missing title or description..
+INFO::2015-02-17T21:57:46+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T21:58:18+02:00::About to create or edit a Book. Watch for missing title..
+INFO::2015-02-17T21:58:20+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T21:58:22+02:00::About to create or edit a Book. Watch for missing title..
+INFO::2015-02-17T21:58:26+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T22:02:30+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+WARNING::2015-02-17T22:02:39+02:00::About to create or edit a Book. Watch for missing title..
+PLSCHECKFFS::2015-02-17T22:03:06+02:00::Error, error, check for missing title or description..
+INFO::2015-02-17T22:03:23+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+INFO::2015-02-17T22:04:20+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+[0;34;49mINFO[0m::2015-02-17T22:04:32+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+[0;35;49mINFO::2015-02-17T22:06:27+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)[0m
+[0;35;49mWARNING::2015-02-17T22:06:38+02:00::About to create or edit a Book. Watch for missing title..[0m
+[0;94;49mINFO[0m::2015-02-17T22:08:10+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)
+[0;33;49mWARNING[0m::2015-02-17T22:08:24+02:00::About to create or edit a Book. Watch for missing title..
+[0;31;49mPLSCHECKFFS[0m::2015-02-17T22:08:32+02:00::Error, error, check for missing title or description..
+[0;31;49mPLSCHECKFFS[0m::2015-02-17T22:08:44+02:00::Error, error, check for missing title or description..
+[0;94;49mINFO[0m::2015-02-17T22:08:52+02:00::Hello, welcome to Ruby on Rails - Listing Book(s)

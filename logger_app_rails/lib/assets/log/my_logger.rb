@@ -10,11 +10,11 @@ class MyLogger
 	def get_level
 		level_name = case @level
 		when 1
-			"INFO"
+			"INFO".colorize(:light_blue)
 		when 2
-			"WARNING"
+			"WARNING".colorize(:yellow)
 		when 3
-			"PLSCHECKFFS"
+			"PLSCHECKFFS".colorize(:red)
 		end
 		#	"#{level_name}: #{@message}"
 	end

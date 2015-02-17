@@ -7,11 +7,11 @@ module BooksHelper
 	def self.console_log_message(logger_level)
 		cons1 = case logger_level
 		when "info"
-			ConsoleLogger.new(1, "Hello, welcome to Ruby on Rails - Listing Book(s)")
+			ConsoleLogger.new(1, "Hello, welcome to Ruby on Rails - Listing Book(s)".colorize(:light_blue))
 		when "warn"
-			ConsoleLogger.new(2, "About to create or edit a Book. Watch for missing title..")
+			ConsoleLogger.new(2, "About to create or edit a Book. Watch for missing title..".colorize(:yellow))
 		when "error"
-			ConsoleLogger.new(3, "Error, error, check for missing title or description..")
+			ConsoleLogger.new(3, "Error, error, check for missing title or description..".colorize(:red))
 		end
 		cons1.console_log
 	end
@@ -29,7 +29,7 @@ module BooksHelper
 	end
 
 	def self.http_log_console
-		message = HTTPLogger.new(1, "Success! Created a new book!")
+		message = HTTPLogger.new(1, "Success! Created a new book via POST request".colorize(:green))
 		message.log_http_message
 	end
 end

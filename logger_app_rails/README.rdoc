@@ -7,8 +7,9 @@
  bin/rake seed_books
  bin/rails server
 
- go to http://localhost:300
- Play around with different controller actions and check the console for custom messeges. 
+ go to http://localhost:3000
+ Play around with different controller actions and check the console for custom messeges
+ after each request. 
  Check the logger.txt file in lib/assets/log/loggger.txt
 
  HttpLogger hooked up to create method in the books controller.
