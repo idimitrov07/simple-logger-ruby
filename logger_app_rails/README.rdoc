@@ -2,7 +2,7 @@
  
  run the follwing command to set up the app:
 
- bin/bundle install 
+ bundle install 
  bin/rake db:migrate
  bin/rake seed_books
  bin/rails server
